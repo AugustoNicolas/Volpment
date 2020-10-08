@@ -102,7 +102,7 @@ header {
    }
    .ordena{
     background-color: #0D1F2D;     
-    min-height: 700px; 
+    min-height: 500px; 
    }
    .ordena h3{
     color: #F3EFF5;
@@ -117,30 +117,49 @@ header {
    .posicion img{
      width: 400px;
    }
-   
    .posicion2 img{
-    width: 400px;
+    width: 350px;
   }
   .posicion3 img{
     width: 400px;
   }
-  @media only screen and (max-width:992px) {
+  @media only screen and (max-height:800px) {
     .posicion img{
       width: 200px;
     }
     .posicion2 img{
+      width: 300px;
+   }
+   .posicion3 img{
+    width: 300px;
+   }
+   }
+   @media only screen and (max-height:700px) {
+    .posicion2 img{
       width: 200px;
+   }
+   .posicion3 img{
+    width: 200px;
+   }
+   }
+  @media only screen and (max-width:1000px) {
+    .posicion img{
+      width: 200px;
+    }
+    .posicion2 img{
+      display: none;
     }
     .posicion3 img{
       width: 200px;
     }
    }
    @media only screen and (max-width:512px) {
-    .posicion img{
+    .posicion2 img{
       display: none;
     }
-   
    }
+  
+   
    .posicion {
      top: 0;
      right: 50px;
@@ -175,4 +194,13 @@ header {
    }
    .precios-img img{
     height: 150px;
+   }
+   .listas {
+     height: 390px;
+   }
+   .textoprecios {
+    height: 60px;
+   }
+   .relleno {
+    line-height: 30px;
    }
